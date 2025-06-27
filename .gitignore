@@ -1,1 +1,54 @@
+# ----------Directories----------
 
+# Node Packages
+node_modules/
+
+# Build Artifacts (React or Vite/Next)
+build/
+dist/
+out/
+
+# Parcel or Vite Cache
+.cache/
+.vite/
+
+# React Specific Folders
+coverage/
+.env
+
+# Dependency lock files if you switch between package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDE/editor Generated Folders
+.vscode/
+.idea/
+.eslintcache
+
+# ----------Files----------
+
+# IDE/editor Generated Files
+*.sublime-workspace
+*.sublime-project
+
+# System Compile Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+log.txt
+
+# JS Specific Files
+*.tsbuildinfo
+
+# OS Generated Files
+.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
+._*
+.Spotlight-V100
+Thumbs.db
+ehthumbs.db
+Desktop.ini
